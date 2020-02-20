@@ -15,21 +15,21 @@
     <h1>Вакансия:Junior Frontend Developer</h1>
     <div><img src="./images/IMG_0029.jpeg" width="200" height="160" align="left" alt="Фото кандидата">
         Имя: Анастасия<br /> Фамилия: Кладова<br />
-    <a href="">https://dwstroy.ru/stail/plaginy-rasshireniya/emmet-shpargalka/ </a>
+    <a href="https://github.com/NastyaKladava?tab=repositories" target="_blank">Ссылка на репозиторий в GitHub</a>
         <br />Опыт работы: нет</div> <br /> <br /> <br /> <br /> <br />
     <form action="HR-form.html" method="post">
         <label for="interview">Дата собеседования:</label>
         <input type="date" name="interview" />
     </form>
     <p>Уровень английского:<br />
-        <input type="radio" name="level" value="b">
+        <input id="bad" type="radio" name="level" value="b">
         <label for="bad">Плохо</label>
-        <input type="radio" name="level" value="m">
-        <label for="bad">Средне</label>
-        <input type="radio" name="level" value="w">
-        <label for="bad">Хорошо</label>
-        <input type="radio" name="level" value="e">
-        <label for="bad">Превосходно</label>
+        <input id="medium" type="radio" name="level" value="m">
+        <label for="medium">Средне</label>
+        <input id="well" type="radio" name="level" value="w">
+        <label for="well">Хорошо</label>
+        <input id="excellent" type="radio" name="level" value="e">
+        <label for="excellent">Превосходно</label>
     </p>
     <p>
     <ul>
@@ -61,10 +61,14 @@
     </form>
     <form action="HR-form.html" method="post">
         <p>Подходит по критериям:<br />
-            <input type="checkbox" name="criterion" value="english"> Знание английского
-            <input type="checkbox" name="criterion" value="salary"> Оклад
-            <input type="checkbox" name="criterion" value="skills"> Навыки
-            <input type="checkbox" name="criterion" value="definitely"> Сразу видно, что свой человек
+            <input id="english" type="checkbox" name="criterion" value="en">
+            <label for="english">Знание английского</label>
+            <input id="salary" type="checkbox" name="criterion" value="sal">
+            <label for="salary">Оклад</label>
+            <input id="skills" type="checkbox" name="criterion" value="sk">
+            <label for="skills">Навыки</label>
+            <input id="definitely" type="checkbox" name="criterion" value="d">
+            <label for="definitely">Сразу видно, что свой человек</label>
         </p>
     </form>
     <table>
