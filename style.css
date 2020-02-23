@@ -1,0 +1,156 @@
+body {
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+}
+h1 {
+    text-decoration: overline;
+    letter-spacing: 1px;
+}
+img {
+    width: 15%;
+    float: left;
+    display: block;
+    margin: 0px auto;
+}
+.name {
+    padding: 10px;
+    font-style: italic;
+    }
+a {
+    cursor: pointer;
+}
+.interview {
+    text-align: justify;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 350px;
+    height: 25px;
+    border: 4px outset darksalmon;
+    border-radius: 20px 20px;
+}
+.frame{
+    border-color: darkviolet;
+    color: lightseagreen;
+
+}
+.english {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 430px;
+    height: 40px;
+    border: 4px dotted darkred;
+    border-radius: 20px 20px;
+}
+.skills {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 220px;
+    height: 110px;
+    border: 4px outset darksalmon;
+    border-radius: 20px 20px;
+}
+ul {
+    list-style: none;
+}
+li {
+    text-transform: lowercase;
+}
+li::before {
+        content: "";
+        background-image: url(https://lh3.googleusercontent.com/proxy/H2rJiN651PNE8XVjNHnWStflkADb0HhAGDxx8FlCQ3Q7CU4CS0WHH_bKnHZf3mzUqVbrTt1Sz0LdmpmU6638UpJS2z9rn9912hdMR2DZozvCuT5igz1i);
+        padding-right: 20px;
+        background-size: cover;
+}
+.pskills {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 25px;
+    border: 4px dotted darkred;
+    border-radius: 20px 20px;
+}
+[type="submit"] {
+    border-radius: 0px 10px;
+    color: black;
+    text-shadow: 0px 1px 1px grey;
+    border-bottom: 2px ridge;
+    background-color: olivedrab;
+}
+}
+[type="submit"]:hover {
+    border-radius: 0px 10px;
+    color: blue;
+    border: 1px solid lightblue;
+    border-top: 2px ridge;
+    background-color: olive;
+}
+.com {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 360px;
+    height: 25px;
+    border: 4px outset darksalmon;
+    border-radius: 20px 20px;
+}
+.salary {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 320px;
+    height: 25px;
+    border: 4px dotted darkred;
+    border-radius: 20px 20px;
+}
+.criterion {
+    text-align: justify;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 680px;
+    height: 40px;
+    border: 4px outset darksalmon;
+    border-radius: 20px 20px;
+}
+.head {
+    text-transform: uppercase;
+    font-style: oblique;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+}
+table {
+    width: 600px;
+    margin-top: 20px;
+}
+th, th {
+    padding: 10px;
+}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2ps solid;
+    border-top: 1px solid;
+    text-align: left;
+}
+.olive{
+    background-color: olive;
+}
+.blue {
+    background-color: blue;
+}
+tr:hover {
+    background-color: teal;
+}
+td {
+    padding: 10px;
+}

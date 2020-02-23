@@ -3,24 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table, th, td {
-            border:1px solid black;
-            border-collapse: collapse;
-        }
-    </style>
     <title>HR-form</title>
+    <link href="style.css" type="text/css"
+     rel="stylesheet" />
 </head>
 <body>
     <h1>Вакансия:Junior Frontend Developer</h1>
-    <div><img src="./images/IMG_0029.jpeg" width="200" height="160" align="left" alt="Фото кандидата">
-        <div>Имя: Анастасия<br /> Фамилия: Кладова<br />
+    <div><img src="./images/IMG_0029.jpeg" alt="Фото кандидата">
+        <div class="name">Имя: Анастасия<br /> Фамилия: Кладова<br />
     <a href="https://github.com/NastyaKladava?tab=repositories" target="_blank">Ссылка на репозиторий в GitHub</a>
-        <br />Опыт работы: нет</div></div> <br /> <br /> <br /> <br /> <br /> <br />
-    <form action="HR-form.html" method="post">
+        <br />Опыт работы: нет</div></div>
+    <div class="interview"><form action="HR-form.html" method="post">
         <label for="interview">Дата собеседования:</label>
-        <input type="date" name="interview" />
-    <p>Уровень английского:<br />
+        <input class="frame" type="date" name="interview" />
+    </div><br />
+    <div class="english">Уровень английского:<br />
         <input id="bad" type="radio" name="level" value="b">
         <label for="bad">Плохо</label>
         <input id="medium" type="radio" name="level" value="m">
@@ -29,42 +26,47 @@
         <label for="well">Хорошо</label>
         <input id="excellent" type="radio" name="level" value="e">
         <label for="excellent">Превосходно</label>
-    </p>
-    <p>
+    </div>
+    <div class="skills">
     <ul>
         Ключевые навыки:
         <li>HTML</li>
         <li>CSS/LESS</li>
         <li>JavaScript</li>
     </ul>
-    </p>
-        <input type="enter" placeholder="введите навык..." name="skill">
+    </div>
+    <div class="pskills"><input class="frame" type="enter" placeholder="введите навык..." name="skill">
         <input type="submit" name="add" value="Добавить в список">
-    <p>
+    </div><br />
+    <div class="com">
         Коммуникабельность: 
-        <select name="skill to communicate">
+        <select class="frame" name="skill to communicate">
             <option value="choose">Выберите значение</option>
             <option value="low">Низкая</option>
             <option value="medium">Средняя</option>
             <option value="high">Высокая</option>
         </select>
-    </p>
-        <p>Желаемая з/п:
-            <input type="enter" placeholder="введите значение..." name="salary">
-        </p>
-        <p>Подходит по критериям:<br />
-            <input id="english" type="checkbox" name="criterion" value="en">
-            <label for="english">Знание английского</label>
-            <input id="salary" type="checkbox" name="criterion" value="sal">
-            <label for="salary">Оклад</label>
-            <input id="skills" type="checkbox" name="criterion" value="sk">
-            <label for="skills">Навыки</label>
-            <input id="definitely" type="checkbox" name="criterion" value="d">
-            <label for="definitely">Сразу видно, что свой человек</label>
-        </p>
+    </div><br />
+        <div class="salary">Желаемая з/п:
+            <input class="frame" type="enter" placeholder="введите значение..." name="salary">
+        </div> <br />
+        <div class="criterion">Подходит по критериям:<br />
+            <label>
+            <input id="english" type="checkbox" name="criterion" value="en">Знание английского
+            </label>
+            <label>
+            <input id="salary" type="checkbox" name="criterion" value="sal">Оклад
+            </label>
+            <label>
+            <input id="skills" type="checkbox" name="criterion" value="sk">Навыки
+            </label>
+            <label>
+            <input id="definitely" type="checkbox" name="criterion" value="d">Сразу видно, что свой человек
+            </label>
+        </div>
     </form>
     <table>
-        <p>Образование, курсы и т.п.</p>
+        <p class="head">Образование, курсы и т.п.</p>
         <thead>
             <tr>
                 <th>#</th>
@@ -73,7 +75,7 @@
             </tr>
         </thead>
         <tbody>
-            <tr> 
+            <tr class="olive"> 
                 <th>1</th>
                 <td>5 лет</td>
                 <td>Белорусский государственный экономический университет (БГЭУ)</td>
@@ -83,7 +85,7 @@
                 <td>1 год</td>
                 <td>Курсы английского языка в "2English"</td>
             </tr>
-            <tr>
+            <tr class="blue">
                 <th>3</th>
                 <td>3 месяца</td>
                 <td>Курс Junior Front-End Developer в "Level Up"</td>
